@@ -988,7 +988,7 @@ namespace Granite {
 		/**
 		 * This class makes an about dialog which goes in the App Menu on most apps.
 		 * 
-		 * {{../../doc/images/AboutDialog.png}}
+		 * {{../images/AboutDialog.png}}
 		 */
 		[CCode (cheader_filename = "granite.h")]
 		public class AboutDialog : Granite.GtkPatch.AboutDialog {
@@ -1054,7 +1054,7 @@ namespace Granite {
 		 * it might be used to show how much songs are in a playlist or how much updates
 		 * are available.
 		 *
-		 * {{../../doc/images/cellrendererbadge.png}}
+		 * {{../images/cellrendererbadge.png}}
 		 *
 		 * @since 0.2
 		 */
@@ -1283,7 +1283,7 @@ namespace Granite {
 		 * Tab bar widget designed for a variable number of tabs.
 		 * Supports showing a "New tab" button, restoring closed tabs, "pinning" tabs, and more.
 		 *
-		 * {{../../doc/images/DynamicNotebook.png}}
+		 * {{../images/DynamicNotebook.png}}
 		 */
 		[CCode (cheader_filename = "granite.h")]
 		public class DynamicNotebook : Gtk.EventBox {
@@ -1385,7 +1385,7 @@ namespace Granite {
 		/**
 		 * This is always-on-top, non-modal window with a large close button.
 		 *
-		 * {{../../doc/images/LightWindow.png}}
+		 * {{../images/LightWindow.png}}
 		 */
 		[CCode (cheader_filename = "granite.h")]
 		[Deprecated (replacement = "Gtk.Dialog", since = "0.3")]
@@ -1400,7 +1400,7 @@ namespace Granite {
 		/**
 		 * This widget is a multiple option modal switch
 		 *
-		 * {{../../doc/images/ModeButton.png}}
+		 * {{../images/ModeButton.png}}
 		 */
 		[CCode (cheader_filename = "granite.h")]
 		public class ModeButton : Gtk.Box {
@@ -1480,7 +1480,7 @@ namespace Granite {
 		 *
 		 * The Overlay Bar displays a single line of text that can be changed using the "status" property.
 		 *
-		 * {{../../doc/images/OverlayBar.png}}
+		 * {{../images/OverlayBar.png}}
 		 *
 		 * This widget tries to avoid getting in front of the content being displayed inside the {@link Gtk.Overlay}
 		 * by moving itself horizontally to the opposite side from the current one when the mouse pointer enters
@@ -1521,7 +1521,7 @@ namespace Granite {
 		 * dialog because it doesn't hide a big part of the screen. And it is closed
 		 * when it lose focus.
 		 *
-		 * {{../../doc/images/PopOver.png}}
+		 * {{../images/PopOver.png}}
 		 *
 		 */
 		[CCode (cheader_filename = "granite.h")]
@@ -2494,7 +2494,7 @@ namespace Granite {
 		 *
 		 * It can be used to create a list of one-time action items that need to be executed in order to setup the app. 
 		 *
-		 * {{../../doc/images/Welcome.png}}
+		 * {{../images/Welcome.png}}
 		 */
 		[CCode (cheader_filename = "granite.h")]
 		public class Welcome : Gtk.EventBox {
